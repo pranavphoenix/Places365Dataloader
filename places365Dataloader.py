@@ -13,7 +13,7 @@ import torchvision.transforms as transforms
 batch_size = 96
 
 transform_test = transforms.Compose(
-        [transforms.Resize([256, 256]),
+        [transforms.Resize([256, ]),
          transforms.ToTensor(),
      transforms.Normalize((0.4576, 0.4411, 0.4080), (0.2689, 0.2669, 0.2849))])
 
